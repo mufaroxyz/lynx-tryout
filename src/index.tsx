@@ -1,5 +1,5 @@
 import { root } from '@lynx-js/react';
-import 'tailwindcss/tailwind.css';
+import './tailwind.css?url';
 
 import { App } from './App.js';
 

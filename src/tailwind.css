@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base { 
+  .section{
+    @apply px-6 py-12;
+  }
+
+  text {
+    @apply font-main text-light;
+  }
+
+  .button {
+   @apply px-8 py-2 text-lg text-center duration-200;
+  }
+
+  /* -- Others */
+  .sub-text-1{
+    @apply opacity-65;
+  }
+  .sub-text-2{
+    @apply opacity-80;
+  }
+}
+
+@screen 2xs {
+	:root {
+		@apply text-[46.5%];
+	}
+}
+
+@screen xs {
+	:root {
+		@apply text-[52%];
+	}
+}
+
+@screen sm {
+	:root {
+		@apply text-[68%];
+	}
+}
+
+@screen md {
+	:root {
+		@apply text-[63%];
+	}
+}
+
+@screen lg {
+	:root {
+		@apply text-[70%];
+	}
+}
+
+@screen xl {
+	:root {
+		@apply text-[80%];
+	}
+}
+
+@screen 2xl {
+	:root {
+		@apply text-[85%];
+	}
+}
+
+@screen 3xl {
+	:root {
+		@apply text-[90.5%];
+	}
+}
