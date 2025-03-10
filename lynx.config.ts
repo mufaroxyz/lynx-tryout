@@ -6,7 +6,7 @@ import { pluginReactLynx } from '@lynx-js/react-rsbuild-plugin';
 export default defineConfig({
   server: {
     port: 5173,
-    host: '192.168.0.159',
+    host: '192.168.1.59',
   },
   plugins: [
     pluginQRCode({

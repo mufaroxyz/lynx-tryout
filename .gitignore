@@ -11,3 +11,9 @@ dist/
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# Other dependency managers
+yarn-error.log
+npm-debug.log
+bun.lock
+package-lock.json
