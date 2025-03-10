@@ -6,7 +6,8 @@
     "build": "rspeedy build",
     "dev": "rspeedy dev",
     "format": "prettier --write .",
-    "preview": "rspeedy preview"
+    "preview": "rspeedy preview",
+    "postinstall": "bash ./setup_lynx_host.sh"
   },
   "dependencies": {
     "@lynx-js/react": "^0.105.0",
